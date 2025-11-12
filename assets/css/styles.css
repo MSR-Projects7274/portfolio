@@ -9,34 +9,58 @@ body {
     background-color: #a4c2d1;
 }
 
+#portfolio .card-title {
+    color: #1f7798;
+    font-size: 1.2rem;
+}
+
+#portfolio .btn-outline-secondary:hover {
+    background-color: #1f7798;
+}
+
+#portfolio .card-text {
+    min-height: 130px;
+    margin: 0.2;
+}
+
 h1, h2 {
     font-family: "DM Serif Display", serif;
 }
 
 /* About Section */
 #about {
-    background-color: white
+    background-color: white;
 }
 
 /* Portfolio */
 #portfolio {
-    background-color: #dbdcde
+    background-color: #dbdcde;
 }
 
 /* Contact Section */
 #contact {
-    background-color: white
+    background-color: white;
 }
 
 /* Header */ 
 #hero {
     background-color: lightgray;
-    background-image: url(../images/background.webp);
+    background-image: url("../images/background.webp");
     background-size: cover;
     background-position: 50% 70%;
     min-height: 500px;
-    padding: 5% 7%
+    padding: 5% 7%;
 }
+
+
+
+/* Bootstrap Breakpoints */
+@media screen and (min-width: 1200px) {
+    #portfolio .card-text {
+        min-height: auto;
+    }
+}
+
 
 
 
